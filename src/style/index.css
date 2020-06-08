@@ -1,20 +1,78 @@
-body,
-html {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
+    BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+  background-color: #e9ebee;
 }
 
-* {
-  box-sizing: border-box;
+.page {
+  display: flex;
+  margin-left: 300px;
+  margin-right: 300px;
+  flex-direction: column;
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.header {
+  background-color: #3b5998;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.register-button {
+  background-color: #42b72a;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.logo {
+  font-size: 40px;
+  padding-right: 10px;
+}
+
+.join-facebook {
+  margin-left: auto;
+}
+
+.createHomepage {
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 20px;
+}
+
+.pageOptions {
+  display: flex;
+
+  margin-top: 50px;
+  width: 100%;
+}
+
+.pageOptions #option1 {
+  background-color: white;
+  display: flex;
+  height: 600px;
+  width: 500px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.pageOptions #option2 {
+  background-color: white;
+  display: flex;
+  height: 600px;
+  width: 500px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: auto;
+}
+
+.subtitle {
+  font-size: large;
+  font-weight: bold;
 }
